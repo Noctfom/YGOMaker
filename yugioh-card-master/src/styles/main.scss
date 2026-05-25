@@ -1,0 +1,23 @@
+@use "variable" as *;
+
+.el-image {
+  .el-image__inner {
+    opacity: 1;
+  }
+
+  .el-image__placeholder {
+    background: none;
+  }
+}
+
+.el-form {
+  .el-form-item {
+    & > .el-input, .el-cascader, .el-select, .el-date-editor, .el-autocomplete {
+      width: 100%;
+    }
+
+    .el-row {
+      flex-grow: 1;
+    }
+  }
+}

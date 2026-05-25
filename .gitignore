@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+ygmaker-server/__deps_installed__
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Node
+yugioh-card-master/node_modules/
+
+# Backup files
+*.bak
+ygmaker-server/backup/*.cdb
+!ygmaker-server/backup/.gitkeep
+
+# Local modifications (user-specific)
+ygmaker-server/local_modifications.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reference / deprecated (kept for archival but not needed for runtime)
+galateacore/
+MDPro3-master-Tools-YGO Classes-ocgcore/
+script/
+
+# Tests / dev scripts
+ygmaker-server/test_api.py
+
+# yugioh-card-master non-essential dirs
+yugioh-card-master/docs/
+yugioh-card-master/play/
+yugioh-card-master/public/
+yugioh-card-master/src/assets/image/
+yugioh-card-master/src/assets/demo/
